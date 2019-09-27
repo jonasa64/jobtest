@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Docs</title>
+</head>
+<body>
+    
+<h1>documentation for api test</h1>
+
+<div>
+    <h3>How to use</h3>
+        <div>
+            <h3>All users</h3>
+                <ul>
+                    <li>request type GET</li>
+                    <li>Url http://localhost:5000/users/</li>
+                    <li>404 page is return if the url is invalid</li>
+                </ul>
+
+                <h3>one users</h3>
+                <ul>
+                    <li>request type GET</li>
+                    <li>Url http://localhost:5000/users/:id</li>
+                    <li>id is type int</li>
+                    <li>404 page is return if the url is invalid</li>
+                </ul>
+
+                <h3>insert new user</h3>
+                <ul>
+                    <li>request type POST</li>
+                    <li>Url http://localhost:5000/users/insert</li>
+                    <li>404 page is return if the url is invalid</li>
+                </ul>
+
+                
+                <h3>delete user</h3>
+                <ul>
+                    <li>request type delete</li>
+                    <li>Url http://localhost:5000/users/:id</li>
+                    <li>id type int</li>
+                    <li>404 page is return if the url is invalid</li>
+                </ul>
+
+                <h3>edit user</h3>
+                <ul>
+                    <li>request type put</li>
+                    <li>Url http://localhost:5000/users/edit/:id</li>
+                    <li>id type int</li>
+                    <h4>params</h4>
+                    <ul>
+                        <li>firstname string</li>
+                        <li>lastname string</li>
+                        <li>email string</li>
+                        <li>password string</li>
+                    </ul>
+                    <li>404 page is return if the url is invalid</li>
+                </ul>
+        </div>
+
+</div>
+
+</body>
+</html>
